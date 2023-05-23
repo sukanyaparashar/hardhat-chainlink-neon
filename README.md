@@ -15,6 +15,13 @@ usage. Follow the official Chainlink documentation to get the [latest](https://d
   # Install external dependencies
   $ npm install
 
+  # Test Utils library
+  # To test the functions in the Utils library, use internal hardhat network as -
+  $ npx hardhat test
+
+  # Or use the network "neonlabs" as -
+  $ npx hardhat test --network neonlabs
+
   # Deploy to Neon EVM Devnet.
   # Feed address is expected in 32 bytes hex (0x...)
   $ FEED_ADDRESS=<address> npx hardhat run scripts/deploy.js --network neonlabs
