@@ -14,7 +14,7 @@ module.exports = {
       accounts: [NEON_ACCOUNTS],
       chainId: 245022926,
       allowUnlimitedContractSize: false,
-      timeout: 100000000,
+      //timeout: 100000000,
       isFork: true,
     },
   },
