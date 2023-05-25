@@ -14,5 +14,8 @@
     "dotenv": "^16.0.3",
     "solidity-bytes-utils": "^0.8.0",
     "@chainlink/contracts": "^0.4.1"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-etherscan": "^3.1.1"
   }
 }
