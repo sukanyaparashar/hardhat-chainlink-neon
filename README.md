@@ -20,11 +20,11 @@ usage. Follow the official Chainlink documentation to get the [latest](https://d
   $ npx hardhat test
 
   # Or use the network "neonlabs" as -
-  $ npx hardhat test --network neonlabs
+  $ npx hardhat test --network neondevnet
 
   # Deploy to Neon EVM Devnet.
   # Feed address is expected in 32 bytes hex (0x...)
-  $ FEED_ADDRESS=<address> npx hardhat run scripts/deploy.js --network neonlabs
+  $ FEED_ADDRESS=<address> npx hardhat run scripts/deploy.js --network neondevnet
 
   # Fetch data from devnet, including feed meta, latest rounds and arbitrary
   # round.
