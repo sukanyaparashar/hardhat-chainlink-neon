@@ -19,18 +19,18 @@ module.exports = {
     },
   },
   etherscan: {
-  apiKey: {
-    neondevnet: "test"
+    apiKey: {
+      neondevnet: "test",
+    },
+    customChains: [
+      {
+        network: "neondevnet",
+        chainId: 245022926,
+        urls: {
+          apiURL: "https://devnet-api.neonscan.org/hardhat/verify",
+          browserURL: "https://devnet.neonscan.org",
+        },
+      },
+    ],
   },
-  customChains: [
-    {
-      network: "neondevnet",
-      chainId: 245022926,
-      urls: {
-        apiURL: "https://devnet-api.neonscan.org/hardhat/verify",
-        browserURL: "https://devnet.neonscan.org"
-      }
-    }
-  ]
-}
 };
